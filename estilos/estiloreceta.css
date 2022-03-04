@@ -1,0 +1,89 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+:root{
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-image: url(../imagenes/patron-receta.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	padding: 5px;
+	background: white;
+	border: 10px solid #696969;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header h1{
+	text-align: center;
+	color: #696969;
+}
+
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+
+article {
+	position: relative;
+	background: white;
+	padding: 10px;
+	margin-top: 10px;
+	border: 10px solid #696969;
+	border-radius: 5px;
+	-webkit-box-shadow: 4px 6px 9px -2px #000000; 
+	box-shadow: 4px 6px 9px -2px #000000;
+}
+
+article p{
+	float: left;
+	max-width: 50%;
+}
+
+article table{
+	float: left;
+	display: inline-block;
+}
+
+article img{
+	float: left;
+	margin: 10px;
+}
+
+article h2{
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	background: #696969;
+	text-transform: uppercase;
+	padding: 10px;
+	font-weight: bold;
+}
+
+h1, h2, h3{
+	color: #696969;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+th, td{
+	text-align: center;
+	border: 2px solid #696969;
+	padding: 3px;
+}
+
+th{
+	color: white;
+	background: #696969;
+}
